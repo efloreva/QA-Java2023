@@ -1,0 +1,17 @@
+
+^
+java:S4973"<Strings and Boxed types should be compared using "equals()".(§¿´¾üÿÿÿÿ8‹—œ´1
+^
+java:S4973"<Strings and Boxed types should be compared using "equals()".(§¿´¾üÿÿÿÿ8‹—œ´1
+8
+java:S3626"Remove this redundant jump.(ûÁİ…8£€œœ´1
+8
+java:S3626"Remove this redundant jump.(ûÁİ…8¸º œ´1
+L	java:S106
+"+Replace this use of System.out by a logger.(êùš¨üÿÿÿÿ8”—œ´1
+L	java:S106"+Replace this use of System.out by a logger.(º©Œÿÿÿÿÿ8”—œ´1
+L	java:S106"+Replace this use of System.out by a logger.(ù¶Àøûÿÿÿÿ8”—œ´1
+G	java:S106"+Replace this use of System.out by a logger.(Â½Ùÿ8•—œ´1
+F	java:S106"+Replace this use of System.out by a logger.(®Ö58•—œ´1
+L	java:S106"+Replace this use of System.out by a logger.(Õ…±†ûÿÿÿÿ8•—œ´1
+L	java:S106"+Replace this use of System.out by a logger.(Õ…±†ûÿÿÿÿ8ˆí—œ´1
