@@ -1,17 +1,9 @@
 
 W
-java:S4973"<Strings and Boxed types should be compared using "equals()".(§¿´¾üÿÿÿÿ
+java:S4973"<Strings and Boxed types should be compared using "equals()".(§¿´¾üÿÿÿÿ
 W
-java:S4973"<Strings and Boxed types should be compared using "equals()".(§¿´¾üÿÿÿÿ
+java:S4973"<Strings and Boxed types should be compared using "equals()".(§¿´¾üÿÿÿÿ
 1
-java:S3626"Remove this redundant jump.(ûÁİ…
+java:S3626"Remove this redundant jump.(ûÁİ…
 1
-java:S3626"Remove this redundant jump.(ûÁİ…
-E	java:S106
-"+Replace this use of System.out by a logger.(êùš¨üÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(º©Œÿÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(ù¶Àøûÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(Â½Ùÿ
-?	java:S106"+Replace this use of System.out by a logger.(®Ö5
-E	java:S106"+Replace this use of System.out by a logger.(Õ…±†ûÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(Õ…±†ûÿÿÿÿ
+java:S3626"Remove this redundant jump.(ûÁİ…
