@@ -16,7 +16,7 @@ public class Dog extends PetParent {
 
 
     //calls the PetParent constructor + we add the unique hasTail
-    public Dog(String breed, String gender, float weight, String name, byte age, String colour, boolean hasTail) {
+    public Dog(Breed breed, String gender, float weight, String name, byte age, String colour, boolean hasTail) {
         super(breed, gender, weight, name, age, colour);
         setHasTail(hasTail);
     }

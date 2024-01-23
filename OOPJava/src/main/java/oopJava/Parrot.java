@@ -13,7 +13,7 @@ public class Parrot extends PetParent {
         this.hasLongBeak = hasLongBeak;
     }
 
-    public Parrot(String breed, String gender, float weight, String name, byte age, String colour, boolean hasLongBeak) {
+    public Parrot(Breed breed, String gender, float weight, String name, byte age, String colour, boolean hasLongBeak) {
         super(breed, gender, weight, name, age, colour); //call the parent constructor first always
         setHasLongBeak(hasLongBeak);
     }

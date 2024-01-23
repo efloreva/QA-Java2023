@@ -4,8 +4,7 @@ public class Test {
     public static void main(String[] args) {
 
         //creating the first object from class Dog using constructor
-        Dog morty = new Dog(
-                "French Bulldog",
+        Dog morty = new Dog(new Breed("French Bulldog", "several:...", "lazy, snoring"),
                 "male",
                 11.25f,
                 "Morty",
@@ -15,11 +14,14 @@ public class Test {
 // calling some actions that are available for the object
         morty.bark();
         morty.eat();
+        morty.setAddress(new Address("Sofia", "Bulgaria", "General M. Skobelev 7"));
 
         //System.out.println(morty);
 //creating a new object from class Dog
+        Breed huskyBreed = new Breed("Husky","Overheating","Loves snow");
+        //less optimal ^
         Dog sharo = new Dog(
-                "Husky",
+                huskyBreed,
                 "female",
                 8.8f,
                 "Sharo",
@@ -33,8 +35,7 @@ public class Test {
         sharo.setAge((byte) 6);
 
 
-        Parrot patchi = new Parrot(
-                "Ara",
+        Parrot patchi = new Parrot(new Breed("Ara","",""),
                 "male",
                 3.4f,
                 "Patchi",

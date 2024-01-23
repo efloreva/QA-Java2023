@@ -2,22 +2,33 @@ package oopJava;
 public class PetParent implements PetActionsInterface {
 
     //instance variables - characteristics of any future object that will be created
-    private String breed;
+    private Breed breed; //composition
     private String gender;
     private float weight;
     private String name;
     private byte age;
     private String colour;
+    private Address address; // aggregation vrazka
+
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
 
     //setters and getters, due to the obj instances being private and not public
-    public String getBreed() {
+    public Breed getBreed() {
         return breed;
     }
 
     //private setBreed due to the fact you cannot change a dog's breed thus no need to make public access to that data
     //limited the possibility to be changed only internally - in this case only using the constructor
-    private void setBreed(String breed) {
-        if (!breed.isEmpty()){
+    private void setBreed(Breed breed) {
+        if (!breed.equals(null)){
             this.breed = breed;
         } else{
             System.out.println("Error: breed is mandatory");
@@ -86,7 +97,7 @@ public class PetParent implements PetActionsInterface {
     }
 
     //constructor - the method which creates the new object
-    public PetParent(String breed, String gender, float weight, String name, byte age, String colour){
+    public PetParent(Breed breed, String gender, float weight, String name, byte age, String colour){
 
         setBreed(breed);
         setGender(gender);
